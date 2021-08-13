@@ -1,0 +1,9 @@
+@layer utilities {
+  .bg-gradient-bottom {
+    background: linear-gradient(
+      0deg,
+      rgba(239, 68, 68, 0.3) 0%,
+      rgba(239, 68, 68, 0) 100%
+    );
+  }
+}
