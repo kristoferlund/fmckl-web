@@ -6,6 +6,7 @@ import Head from "../components/Head";
 import FMCKLSpinner from "../components/FMCKLSpinner";
 import FMCKLLogo from "../svg/FMCKL.svg";
 import FMCKLLightbox from "../components/Lightbox";
+import FMCKLTankebubbla from "../svg/FMCKL-tankebubbla.svg";
 
 export default class Index extends Component {
   render() {
@@ -49,6 +50,9 @@ export default class Index extends Component {
 
         <div className="flex flex-row-reverse w-full pb-20 fmckl-container sm:pb-32">
           <div className="max-w-lg text-xl font-medium leading-normal text-gray-800 sm:text-right font-neue-haas-grotesk-display">
+            <div className="w-full text-right">
+              <FMCKLTankebubbla className="inline w-20 pb-12 text-red-500" />
+            </div>
             FMCKL is a creative agency focusing on{" "}
             <b>food, society, tech and sustainability</b>. We build stuff and
             help others build stuff. We are expert generalists, curious,
